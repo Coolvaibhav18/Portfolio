@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: white;
+    width: 434px;
+    height: 100vh;
+}
+
+.sidebar nav {
+    padding: 72px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    padding: 33px 0px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: rgb(63, 102, 114);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.main {
+    background-color: rgb(63, 102, 114);
+    width: 90vw;
+    
+}
+
+.container {
+    display: flex;
+}
+
+.info_container{
+    /* background-color: rgb(195, 26, 201); */
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devpic img{
+    width: 350px;
+    height: 58vh;
+    
+}
+
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello{
+    font-size: 65px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.name{
+    font-size:50px;
+    /* font-weight: bold; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+}
+.about{
+font-size:45px ;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.aboutmore{
+    margin-top: 23px;
+    font-size: 22px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+}
+.buttons{
+    margin-top: 50px;
+}
+
+.buttons button{
+    margin:0px  3px ;
+    padding:9px 14px ;
+    border-radius:22px ;
+    font-size:21px ;
+    color: rgb(28, 66, 100);
+    background-color: rgb(234, 234, 236);
+    font-weight: 23px;
+    border: 2px solid white;
+
+}
+.buttons button:hover{
+    background-color: rgb(93, 116, 139);
+    color: rgb(247, 247, 247);
+
+}
